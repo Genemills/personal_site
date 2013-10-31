@@ -1,0 +1,131 @@
+/*Structure Business*/
+
+#pagewrap {
+	padding: 5px;
+	width: 820px;
+	margin: 20px auto;
+}
+
+#header { 
+	height:  100px;
+	background-color: #e31227;
+	}
+	
+#content {
+	width: 600px;
+	float: left;
+}
+	 
+#sidebar {
+	width:200px;
+	float:right;
+	} 
+	
+#footer {
+	clear: both;
+	height: 80px;
+	background-color: #e31227;
+	font-family: Garamond, Times, serif;
+	font-size: 175%;
+	color: #f0e0c2;
+	padding: 25px;
+}
+
+/*Responsive Business*/
+
+/*screens of 980px or less*/
+@media screen and (max-width: 980px) {
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 65%;
+	}
+	#sidebar {
+		width: 30%;
+	}
+}
+
+/*screens of 700px or less*/
+@media screen and (max-width: 700px) {
+	#content {
+		width:auto;
+		float:none;
+	}
+	#sidebar {
+		width:auto;
+		float:none;
+	}
+}
+
+/*screens of 480px or less*/
+@media screen and (max-width: 480px) {
+	#header {
+		height: auto;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	#sidebar {
+		display:none;
+	}
+}
+
+
+/*Design Business*/
+
+
+.footcopy: {
+	font-family: Garamond, Times, serif;
+	color: #f0e0c2;
+	padding: 15px;
+	}
+	
+#name { 
+	font-family: Tahoma, Arial, sans-serif;
+	color: #f0e0c2;
+	}
+
+#tag {
+	font-family: Garamond, Times, serif;
+	color: #f0e0c2;
+	font-size: 150%;
+	}
+
+.exp {
+	background-color: #1907e0;
+	width: 450px;
+	-moz-border-radius: 5px; 	
+	border-radius: 5px;
+	}
+h2 {
+	color: #faf8f5;
+	font-family: Tahoma, Arial, sans-serif;
+	margin: 10px;
+	padding: 10px;
+	}
+
+	
+.skills {
+	background-color: #333333;
+	width: 150px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	}
+
+.copy {
+	font-family: Garamond, Times, serif;
+	color: #191919;
+	font-size: 125%;
+	}
+
+.sidecopy {
+	font-family: Garamond, Times, serif;
+	color: #191919;
+	margin-left: 25px;
+	font-size: 125%;
+	}
+	
+hr {
+	color: #bf9c7f;
+	}
